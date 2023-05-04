@@ -1,0 +1,28 @@
+uuid: 62140de4-e386-45cb-a4cc-6bb420bda9a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.team.field_team_park
+    - node.type.team
+  module:
+    - user
+id: node.team.default
+targetEntityType: node
+bundle: team
+mode: default
+content:
+  field_team_park:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

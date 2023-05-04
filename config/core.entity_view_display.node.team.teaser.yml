@@ -1,0 +1,22 @@
+uuid: 80727131-0f4d-49a3-bd88-fa56837967b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.team.field_team_park
+    - node.type.team
+  module:
+    - user
+id: node.team.teaser
+targetEntityType: node
+bundle: team
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_team_park: true

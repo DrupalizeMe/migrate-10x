@@ -1,0 +1,40 @@
+uuid: 94c4c9c3-cb9d-481f-9478-db67392603a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.player.field_player_bats
+    - field.field.node.player.field_player_birth
+    - field.field.node.player.field_player_death
+    - field.field.node.player.field_player_given_name
+    - field.field.node.player.field_player_height
+    - field.field.node.player.field_player_id
+    - field.field.node.player.field_player_notes
+    - field.field.node.player.field_player_teams
+    - field.field.node.player.field_player_throws
+    - field.field.node.player.field_player_weight
+    - node.type.player
+  module:
+    - user
+id: node.player.teaser
+targetEntityType: node
+bundle: player
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_player_bats: true
+  field_player_birth: true
+  field_player_death: true
+  field_player_given_name: true
+  field_player_height: true
+  field_player_id: true
+  field_player_notes: true
+  field_player_teams: true
+  field_player_throws: true
+  field_player_weight: true

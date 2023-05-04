@@ -1,0 +1,23 @@
+uuid: fe383d63-884b-4ff4-9b1a-bd27abd4ffe7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_player_weight
+    - node.type.player
+id: node.player.field_player_weight
+field_name: field_player_weight
+entity_type: node
+bundle: player
+label: Weight
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

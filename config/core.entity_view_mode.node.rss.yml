@@ -1,0 +1,12 @@
+uuid: 4f7b1ee8-6b0d-4043-be44-cf34cf8bdecd
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: vlYzr-rp2f9NMp-Qlr4sFjlqRq-90mco5-afLNGwCrU
+id: node.rss
+label: RSS
+targetEntityType: node
+cache: true

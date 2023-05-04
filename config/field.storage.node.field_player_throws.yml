@@ -1,0 +1,27 @@
+uuid: 1550c74d-20ca-4787-b3f5-9dbe3ecfcb04
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_player_throws
+field_name: field_player_throws
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: R
+      label: Right
+    -
+      value: L
+      label: Left
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
