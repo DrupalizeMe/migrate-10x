@@ -14,7 +14,8 @@ Assuming you have [Docker installed](https://ddev.readthedocs.io/en/stable/users
 ```shell
 ddev start
 ddev composer install
-ddev drush site:install --existing-config -y
+ddev drush site:install -y
+ddev import-db --src=backup.sql.gz
 ddev drush deploy -y
 
 # This sets up a new database in the DDEV db container named lahmansbaseballdb
